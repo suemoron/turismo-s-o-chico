@@ -237,7 +237,7 @@ form {
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   max-width: 600px;
   margin: 2rem auto;
-  height: 75vh;
+  height: fit-content;
 }
 .text-form{
   text-align: center;
@@ -277,3 +277,22 @@ form button:hover {
   background-color: #ffce96;
 }
 
+
+
+
+
+
+
+
+.highlight {
+    font-weight: bold;
+}
+
+.nav-selected{
+  text-shadow: 1px 1px 3px #e6671e96;
+
+}
+
+.margin-top{
+  margin-top: 80px;
+}
