@@ -1,0 +1,46 @@
+form {
+  background-color: rgb(255, 254, 252) ;
+  padding: 2rem;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  margin: 2rem auto;
+  height: fit-content;
+}
+.text-form{
+  text-align: center;
+  color: rgb(255, 133, 20);
+  margin-top: 20px;
+}
+form label {
+  display: block;
+  font-weight: 600;
+  color: rgb(255, 106, 20) ;
+}
+form input,
+form select,
+form textarea {
+  width: 100%;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  font-family: inherit;
+  font-size: 1rem;
+}
+form button {
+  background-color: rgb(250, 101, 2);
+  color:rgb(250, 186, 102);
+  border: none;
+  padding: 0.8rem 1.5rem;
+  font-size: 1rem;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+form button:hover {
+  background-color: orange;
+  color: black;
+}
+.contato{
+  background-color: #ffce96;
+}

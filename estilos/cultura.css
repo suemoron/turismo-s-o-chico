@@ -54,3 +54,7 @@ td img {
   transform: scale(1.02,1.01);
 }
 
+.section-scroll{
+    scroll-margin-top:  80px;
+}
+
